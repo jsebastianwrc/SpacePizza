@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacePizza", "SpacePizza\SpacePizza.csproj", "{61696B1C-704C-472C-8F76-E086FE03B7AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpacePizza", "SpacePizza\SpacePizza.csproj", "{61696B1C-704C-472C-8F76-E086FE03B7AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpacePizza.ServicePizzas", "SpacePizza.ServicePizzas", "{9433810C-0A41-4E38-BD3D-F3B2381F3E3C}"
 EndProject
@@ -15,7 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpacePizza.ServicePromotion
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpacePizza.ServiceUsers", "SpacePizza.ServiceUsers", "{DD534A09-1921-4868-8F88-BA73C4F37DDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacePizza.ServiceUsers", "SpacePizza.ServiceUsers\SpacePizza.ServiceUsers.csproj", "{79925ADC-D83B-4AB5-8A3A-FC04275C788E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpacePizza.ServiceUsers", "SpacePizza.ServiceUsers\SpacePizza.ServiceUsers.csproj", "{79925ADC-D83B-4AB5-8A3A-FC04275C788E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacePizza.ServiceBeverages", "SpacePizza.ServiceBeverages\SpacePizza.ServiceBeverages.csproj", "{E99065BE-2A53-43B4-BE3B-9DD4A5E5A4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacePizza.ServiceOrders", "SpacePizza.ServiceOrders\SpacePizza.ServiceOrders.csproj", "{6A1720F4-B98D-4C07-B728-012C0FFC9B2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacePizza.ServicePizzas", "SpacePizza.ServicePizzas\SpacePizza.ServicePizzas.csproj", "{ABAE997D-45CE-465F-BC80-1B6872DAFFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacePizza.ServicePromotions", "SpacePizza.ServicePromotions\SpacePizza.ServicePromotions.csproj", "{B7C6EA3A-4DCC-4F4C-86A4-9FA2D2B26441}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,12 +39,32 @@ Global
 		{79925ADC-D83B-4AB5-8A3A-FC04275C788E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79925ADC-D83B-4AB5-8A3A-FC04275C788E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79925ADC-D83B-4AB5-8A3A-FC04275C788E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99065BE-2A53-43B4-BE3B-9DD4A5E5A4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99065BE-2A53-43B4-BE3B-9DD4A5E5A4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99065BE-2A53-43B4-BE3B-9DD4A5E5A4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99065BE-2A53-43B4-BE3B-9DD4A5E5A4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1720F4-B98D-4C07-B728-012C0FFC9B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1720F4-B98D-4C07-B728-012C0FFC9B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1720F4-B98D-4C07-B728-012C0FFC9B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1720F4-B98D-4C07-B728-012C0FFC9B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAE997D-45CE-465F-BC80-1B6872DAFFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAE997D-45CE-465F-BC80-1B6872DAFFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAE997D-45CE-465F-BC80-1B6872DAFFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAE997D-45CE-465F-BC80-1B6872DAFFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C6EA3A-4DCC-4F4C-86A4-9FA2D2B26441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C6EA3A-4DCC-4F4C-86A4-9FA2D2B26441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C6EA3A-4DCC-4F4C-86A4-9FA2D2B26441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C6EA3A-4DCC-4F4C-86A4-9FA2D2B26441}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79925ADC-D83B-4AB5-8A3A-FC04275C788E} = {DD534A09-1921-4868-8F88-BA73C4F37DDD}
+		{E99065BE-2A53-43B4-BE3B-9DD4A5E5A4DB} = {8B85862F-FDC3-447C-937F-8BFACC10B868}
+		{6A1720F4-B98D-4C07-B728-012C0FFC9B2D} = {48B99361-FA7D-461A-AB9E-C94AB1D3EFA6}
+		{ABAE997D-45CE-465F-BC80-1B6872DAFFFE} = {9433810C-0A41-4E38-BD3D-F3B2381F3E3C}
+		{B7C6EA3A-4DCC-4F4C-86A4-9FA2D2B26441} = {0F267105-F267-4E6B-A048-4D802CFEE436}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89BCE440-4EC6-4AC1-BA13-1B56FED21316}
